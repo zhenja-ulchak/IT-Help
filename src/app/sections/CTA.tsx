@@ -61,20 +61,20 @@ export default function CTA() {
       >
         {/* Інформація про салон */}
         <Box sx={{ width: { xs: '100%', md: 'auto' }, maxWidth: 600, textAlign: { xs: 'center', md: 'center' }, }}>
-      
+
           <Typography variant="h5" mb={2} sx={{ fontWeight: 700 }}>
             IT-Підтримка "Свій ITшник"
           </Typography>
-      
 
-     
+
+
           <Typography variant="h5" sx={{ fontWeight: 500 }}>
             <LocationOnIcon sx={{ verticalAlign: 'middle', mr: 0.5 }} />
             м. Ужгород, Закарпатська область, 88005
           </Typography>
-        
 
-        
+
+
           <Typography variant="h5" sx={{ fontWeight: 500 }}>
             <LocalPhoneIcon sx={{ verticalAlign: 'middle', mr: 0.5 }} />
             <Button
@@ -84,14 +84,14 @@ export default function CTA() {
               +38 (066) 840-55-01
             </Button>
           </Typography>
-         
 
-         
+
+
           {/* <Typography variant="h5" sx={{ fontWeight: 500 }}>
             <EmailIcon sx={{ verticalAlign: 'middle', mr: 0.5 }} />
             
           </Typography> */}
-         
+
 
         </Box>
 
@@ -108,15 +108,8 @@ export default function CTA() {
             mt: { xs: 4, md: 0 }, // відступ зверху на мобільних
           }}
         >
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.123456789!2d30.5234!3d50.4501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce123456789%3A0x123456789abcdef!2sShevchenka%2012%2C%20Kyiv%2C%20Ukraine!5e0!3m2!1sen!2sua!4v1671234567890!5m2!1sen!2sua"
-            width="100%"
-            height="100%" // займає всю висоту Box
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d554.5484332680567!2d22.293320972004604!3d48.61191493810808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1780922732673!5m2!1sru!2sua" width="1100" height="650"  loading="lazy" ></iframe>
         </Box>
 
       </Stack>

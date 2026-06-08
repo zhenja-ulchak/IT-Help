@@ -31,7 +31,6 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
 
   const menuItems = [
     { text: 'Послуги', href: '#benefits' },
-    { text: 'Ціни', href: '#pricing' },
     { text: 'FAQ', href: '#faq' },
     { text: 'Контакти', href: '#contact' },
   ]
@@ -39,9 +38,10 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
   return (
     <>
       <AppBar position="sticky" sx={{ px: { xs: 1, sm: 2, md: 3 } }}>
+        
         <Toolbar sx={{ position: 'relative', minHeight: { xs: 60, sm: 65, md: 70 }, flexWrap: 'wrap' }}>
           {/* Логотип */}
-          <Typography
+          {/* <Typography
             variant="h6"
             sx={{
               fontWeight: 700,
@@ -49,9 +49,22 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
               fontSize: { xs: '1rem', sm: '1.1rem', md: '1.25rem', lg: '1.3rem', xl: '1.4rem' },
             }}
           >
-            Lawyer
-          </Typography>
 
+          </Typography> */}
+                 <Box
+            component="img"
+            src="/U.png"
+            alt="Logo"
+            sx={{
+              height: { xs: 30, sm: 35, md: 40, lg: 45, xl: 50 },
+              mr: { xs: 1, sm: 2, md: 3 },
+            }}
+          >
+
+            
+           </Box>
+
+            
           {/* Меню по центру - десктоп, сховане при <=1300 */}
           {!isSmall && (
             <Box
@@ -120,7 +133,7 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
                 </IconButton>
                 <IconButton
                   aria-label="WhatsApp"
-                  href="https://wa.me/380991234567"
+                  href="https://wa.me/380668405501"
                   target="_blank"
                   sx={{ color: '#fff', fontSize: { xs: 18, sm: 20 } }}
                 >
@@ -129,14 +142,14 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
 
                 <Button
                   color="inherit"
-                  href="tel:+380991234567"
+                
                   startIcon={<LocalPhoneIcon />}
                   sx={{
                     textTransform: 'none',
                     fontSize: { sm: '0.9rem', md: '1rem', lg: '1.05rem' },
                   }}
                 >
-                  +38 099 123 45 67
+                 +380668405501
                 </Button>
               </>
             )}
@@ -181,7 +194,7 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
           </IconButton>
           <IconButton
             aria-label="WhatsApp"
-            href="https://wa.me/380991234567"
+            href="https://wa.me/380668405501"
             target="_blank"
             sx={{ color: '#fff', fontSize: { xs: 18, sm: 20 } }}
           >
@@ -193,14 +206,14 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
         </Box>
         <Button
             color="inherit"
-            href="tel:+380991234567"
+            href="tel:+380668405501"
             startIcon={<LocalPhoneIcon />}
             sx={{
               textTransform: 'none',
               fontSize: { sm: '0.9rem', md: '1rem', lg: '1.05rem' },
             }}
           >
-            +38 099 123 45 67
+            +38 066 840 55 01
           </Button>
       </Drawer>
     </>
