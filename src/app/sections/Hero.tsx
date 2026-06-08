@@ -37,7 +37,7 @@ export default function Hero() {
         sx={{
           position: 'absolute',
           inset: 0,
-          backgroundColor: 'rgba(0,0,0,0.63)',
+          backgroundColor: 'rgba(0, 0, 0, 0.79)',
           zIndex: 1,
         }}
       />

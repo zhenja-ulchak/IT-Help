@@ -2,26 +2,26 @@
 
 import { Container, Typography, Box } from '@mui/material'
 import Grid from '@mui/material/Grid'
-import GavelIcon from '@mui/icons-material/Gavel'
-import BalanceIcon from '@mui/icons-material/Balance'
-import DescriptionIcon from '@mui/icons-material/Description'
+import RouterIcon from '@mui/icons-material/Router'
+import WifiIcon from '@mui/icons-material/Wifi'
+import DnsIcon from '@mui/icons-material/Dns'
 import SecurityIcon from '@mui/icons-material/Security'
 import VerifiedIcon from '@mui/icons-material/Verified'
 import SupportAgentIcon from '@mui/icons-material/SupportAgent'
 
 const benefits = [
   {
-    icon: <GavelIcon sx={{ fontSize: 60, color: '#6d4c41' }} />,
+    icon: <RouterIcon sx={{ fontSize: 60, color: '#6d4c41' }} />,
     title: 'Швидкий виїзд',
     description: 'Оперативне вирішення IT-проблем в офісі або на об’єкті клієнта.',
   },
   {
-    icon: <BalanceIcon sx={{ fontSize: 60, color: '#6d4c41' }} />,
+    icon: <WifiIcon sx={{ fontSize: 60, color: '#6d4c41' }} />,
     title: 'Мережі та Wi-Fi',
     description: 'Налаштування роутерів, локальних мереж, VPN та бездротових систем.',
   },
   {
-    icon: <DescriptionIcon sx={{ fontSize: 60, color: '#6d4c41' }} />,
+    icon: <DnsIcon sx={{ fontSize: 60, color: '#6d4c41' }} />,
     title: 'Серверні рішення',
     description: 'Встановлення та адміністрування Linux і Windows серверів.',
   },
@@ -96,6 +96,7 @@ export default function Benefits() {
                 minHeight: 220,
                 minWidth: "300px",
                 width: '100%',
+                maxWidth: 360,
                 transition: 'all 0.3s ease',
                 '&:hover': {
                   transform: 'translateY(-10px)',
@@ -131,6 +132,7 @@ export default function Benefits() {
                 minHeight: 220,
                 minWidth: "300px",
                 width: '100%',
+                   maxWidth: 360,
                 transition: 'all 0.3s ease',
                 '&:hover': {
                   transform: 'translateY(-10px)',
