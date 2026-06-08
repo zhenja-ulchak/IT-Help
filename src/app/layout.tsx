@@ -3,8 +3,11 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 export const metadata = {
-  title: 'Лендінг для продажу',
-  description: 'Односторінковий лендінг, який продає',
+  title: 'IT-Підтримка для дому та бізнесу',
+   icons: {
+    icon: '/U.png',
+  },
+  description: 'Налаштування мереж, серверів, робочих станцій та офісної техніки. Швидке вирішення IT-проблем, профілактика збоїв та технічна підтримка для компаній і приватних клієнтів.',
 }
 
 export default function RootLayout({

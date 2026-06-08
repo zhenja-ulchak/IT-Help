@@ -109,9 +109,9 @@ export default function Header({ toggleTheme }: { toggleTheme?: () => void }) {
               mt: { xs: 0, md: 0 },
             }}
           >
-            <IconButton onClick={toggleTheme} sx={{ color: '#fff', fontSize: { xs: 18, sm: 20 } }}>
+            {/* <IconButton onClick={toggleTheme} sx={{ color: '#fff', fontSize: { xs: 18, sm: 20 } }}>
               <LightModeIcon />
-            </IconButton>
+            </IconButton> */}
 
             {!isSmall && (
               <>
